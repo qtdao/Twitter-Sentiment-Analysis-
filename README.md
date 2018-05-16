@@ -1,3 +1,27 @@
+## Section 1. Key Files and Descriptions
+### Twitter Movie Data
+*config -- 
+* extract_tweets_restful.py -- 
+* extract_tweets_streaming.py -- 
+* Kafka_Consumer.py --
+* create_tweets_table.sql --
+
+### IMDB Movie Data (Optional)
+*
+*
+
+## Section 2. Directory Structure
+
+## Section 3 a. Pre-requisites
+#### Python setup
+#### Twitter setup
+#### ZOOKEEPER Setup
+#### KAFKA Setup
+#### Data Analytics Set-up 
+A. Python packages:
+B.
+C.
+
 ## Section 3 b. Steps to Run
 
   Twitter Steaming and Batch Data Ingestion
@@ -36,4 +60,7 @@
 
     8. Launch kafka consumer
 
-      > nohup python kafka_Consumer.py &
+      > nohup python kafka_Consumer.py
+      
+## Section 4. Tools and Packages
+
